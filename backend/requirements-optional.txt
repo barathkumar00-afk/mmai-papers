@@ -1,0 +1,26 @@
+# ---------------------------------------------------------------------------
+# OPTIONAL extras -- not installed by default.
+#
+#   pip install -r requirements-optional.txt
+#
+# The backend degrades gracefully when these are absent. Nothing here is
+# required to start the API, to ingest the knowledge base, or to run the tests.
+# ---------------------------------------------------------------------------
+
+# Local sentence-transformer embeddings. Only needed if you want SEMANTIC
+# retrieval. Without it the system falls back to a deterministic lexical
+# hashing encoder, which is real FAISS retrieval but ranks by token overlap
+# rather than meaning. The API labels which one is active.
+# sentence-transformers>=3.0
+
+# Offline Whisper speech-to-text. Without it, POST /api/analyze/speech returns
+# an explicit 503 with a clear reason -- it never invents a transcript.
+# faster-whisper>=1.0
+
+# Required by faster-whisper on some platforms (Windows wheels are not always
+# published for ctranslate2).
+# ctranslate2>=4.0
+
+# scikit-learn is only needed if you switch EMBEDDING_PROVIDER to a classical
+# vectoriser. Omitted by default because it is a large dependency.
+# scikit-learn>=1.5

@@ -1,0 +1,30 @@
+# ---------------------------------------------------------------------------
+# MedExplain AI backend -- runtime dependencies
+#
+# Install:  pip install -r requirements.txt
+#
+# The heavy ML extras (torch / transformers / sentence-transformers) are NOT
+# required. The API runs without them and reports the absence through
+# /api/health instead of failing. See requirements-optional.txt.
+# ---------------------------------------------------------------------------
+
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+pydantic-settings>=2.3
+python-multipart>=0.0.9
+httpx>=0.27
+
+# --- numerical -------------------------------------------------------------
+numpy>=1.26
+pandas>=2.2
+
+# --- retrieval -------------------------------------------------------------
+faiss-cpu>=1.8
+
+# --- medical image decoding ------------------------------------------------
+pillow>=10.3
+pydicom>=2.4
+
+# --- testing ---------------------------------------------------------------
+pytest>=8.0

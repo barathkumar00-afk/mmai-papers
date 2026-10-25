@@ -1,0 +1,636 @@
+{
+  "version": 1,
+  "dimension": 1024,
+  "index_type": "IndexFlatIP",
+  "similarity_metric": "cosine",
+  "encoder": {
+    "name": "unconfigured",
+    "version": "",
+    "role": "text_embedding",
+    "status": "unconfigured",
+    "source": "ollama",
+    "parameters": {
+      "dimension": 1024,
+      "base_url": "http://localhost:11434"
+    }
+  },
+  "total_documents": 10,
+  "total_chunks": 41,
+  "chunks": [
+    {
+      "document_id": "local-acute_hypoxaemic_respiratory_failure",
+      "title": "Acute Hypoxaemic Respiratory Failure — Local Reference Note",
+      "source": "local_reference_note:acute_hypoxaemic_respiratory_failure.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 0,
+      "text": "# Acute Hypoxaemic Respiratory Failure — Local Reference Note PROVENANCE: Local reference note authored for the MedExplain AI research prototype. This is NOT a published guideline, NOT a verbatim society document, and carries NO\nPMID or DOI. It is included so the retrieval pipeline has real, citable-in-system\nmaterial to search. Any clinical use requires verification against the current\npublished source. ## Definition Acute hypoxaemic respiratory failure is a state of inadequate oxygenation\n(commonly defined as PaO2 < 60 mmHg or SpO2 < 90%) with elevated work of\nbreathing, developing over hours to days. It is distinguished from chronic\nrespiratory failure by the abrupt onset and by the absence of a chronic\ncompensatory pattern. ## Assessment Oxygenation is assessed by the PaO2/FiO2 (P/F) ratio:",
+      "metadata": {
+        "chunk_id": "local-acute_hypoxaemic_respiratory_failure#c0",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-acute_hypoxaemic_respiratory_failure",
+      "title": "Acute Hypoxaemic Respiratory Failure — Local Reference Note",
+      "source": "local_reference_note:acute_hypoxaemic_respiratory_failure.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 1,
+      "text": "failure by the abrupt onset and by the absence of a chronic\ncompensatory pattern. ## Assessment Oxygenation is assessed by the PaO2/FiO2 (P/F) ratio:\n- P/F > 300: no acute lung injury\n- P/F 200-300 with PEEP >= 5 cmH2O: mild acute respiratory distress\n- P/F 100-200 with PEEP >= 5 cmH2O: moderate acute respiratory distress\n- P/F <= 100 with PEEP >= 5 cmH2O: severe acute respiratory distress The P/F ratio requires an arterial (or reliably arterialised) PaO2 and an\ninspired oxygen fraction. A saturation-based SpO2/FIO2 ratio is a reasonable\nscreening surrogate in some settings but is not equivalent to the P/F ratio and\nhas different calibration limits. ## Differentiating the mechanism Two broad mechanism groups must be separated: 1. Cardiogenic (hydrostatic) pulmonary oedema — raised left atrial pressure. Supporting features include cardiomegaly, perihilar alveolar distribution,\n   Kerley B lines, pleural effusions, and elevated natriuretic peptides. 2. Non-cardiogenic oedema — increased capillary permeability.",
+      "metadata": {
+        "chunk_id": "local-acute_hypoxaemic_respiratory_failure#c1",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-acute_hypoxaemic_respiratory_failure",
+      "title": "Acute Hypoxaemic Respiratory Failure — Local Reference Note",
+      "source": "local_reference_note:acute_hypoxaemic_respiratory_failure.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 2,
+      "text": "r distribution,\n   Kerley B lines, pleural effusions, and elevated natriuretic peptides. 2. Non-cardiogenic oedema — increased capillary permeability.\nSupporting features\n   include a normal cardiac silhouette, peripheral or basal ground-glass\n   attenuation, absence of Kerley B lines, and preserved ventricular indices. No single feature is definitive. Interpretation must combine the physiological\ndata, the imaging appearance, and the clinical trajectory. ## Inflammatory markers Serum C-reactive protein is a non-specific acute-phase reactant. An elevated\nvalue indicates an inflammatory response but does not identify its cause, and it\ndoes not by itself distinguish infectious from inflammatory from non-inflammatory\nprocesses. It is useful for trend monitoring, not for diagnosis. ## Cardiac injury markers",
+      "metadata": {
+        "chunk_id": "local-acute_hypoxaemic_respiratory_failure#c2",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-acute_hypoxaemic_respiratory_failure",
+      "title": "Acute Hypoxaemic Respiratory Failure — Local Reference Note",
+      "source": "local_reference_note:acute_hypoxaemic_respiratory_failure.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 3,
+      "text": "tinguish infectious from inflammatory from non-inflammatory\nprocesses. It is useful for trend monitoring, not for diagnosis. ## Cardiac injury markers\nA normal troponin at presentation reduces the likelihood of acute myocardial\ninjury but does not exclude it: early presenters may still be troponin-negative\nbefore the biomarker rises, and a normal value carries no exclusionary weight\nafter several hours of ischaemia. ## Escalation Sustained hypoxaemia despite oxygen, increasing work of breathing, or\nhaemodynamic instability warrants urgent senior and critical-care review. Oxygen\ntherapy targets are individualised; a common working target in adults without\nknown hypercapnic respiratory failure is SpO2 92-96%.",
+      "metadata": {
+        "chunk_id": "local-acute_hypoxaemic_respiratory_failure#c3",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-copd_exacerbation",
+      "title": "COPD Exacerbation — Local Reference Note",
+      "source": "local_reference_note:copd_exacerbation.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 0,
+      "text": "# COPD Exacerbation — Local Reference Note PROVENANCE: Local reference note authored for the MedExplain AI research prototype. Not a published guideline, not a verbatim society document, no PMID or DOI. Included so the retrieval pipeline has real local material to search. ## Definition A COPD exacerbation is an **acute worsening of respiratory symptoms** — increased\ndyspnoea, increased sputum volume, or increased sputum purulence — that is\nacute in onset and requires a change in regular medication. The cardinal point\nis the *change from baseline*: a patient breathing normally at their usual\nsputum volume with a chronic baseline dyspnoea is not, by definition, in\nexacerbation. ## Anthracosis and chronic parenchymal change Anthracosis is the accumulation of carbon pigment in lung tissue, usually\nperibronchial. On plain radiography it manifests as:",
+      "metadata": {
+        "chunk_id": "local-copd_exacerbation#c0",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-copd_exacerbation",
+      "title": "COPD Exacerbation — Local Reference Note",
+      "source": "local_reference_note:copd_exacerbation.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 1,
+      "text": "onic parenchymal change Anthracosis is the accumulation of carbon pigment in lung tissue, usually\nperibronchial. On plain radiography it manifests as:\n- fine nodular or reticulonodular opacities, predominantly **upper lobe**\n- more prominent with advancing age\n- co-existing hyperinflation: flattened hemidiaphragms, increased retrosternal\n  airspace, horizontally oriented ribs, reduced peripheral vascular markings Anthracosis is a *nonspecific marker of long-term particulate exposure*,\nfrequently co-dated. It is associated with but not specific to COPD, and it does\nnot by itself establish COPD as the cause of an acute presentation. ## Hyperinflation The radiographic features of hyperinflation are listed above. Important\ncaveat: hyperinflation is **also** seen in asthma and in obesity, and it can be\nover-estimated by poor inspiratory effort and by AP projection. ## Gas exchange Exacerbations frequently cause hypoxaemia with or without a raised PaCO2.",
+      "metadata": {
+        "chunk_id": "local-copd_exacerbation#c1",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-copd_exacerbation",
+      "title": "COPD Exacerbation — Local Reference Note",
+      "source": "local_reference_note:copd_exacerbation.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 2,
+      "text": "r-estimated by poor inspiratory effort and by AP projection. ## Gas exchange Exacerbations frequently cause hypoxaemia with or without a raised PaCO2.\nA normal PaCO2 in a patient with a known history of hypercapnic failure is\nalarming rather than reassuring, because it may represent over-ventilation from\nhypoxaemia. PaCO2 must be interpreted against the patient's own baseline. ## Inflammatory markers C-reactive protein often rises during exacerbations, particularly those with\npurulent sputum. Elevated CRP has been associated with a longer time to\nrecovery in some cohorts, but it is not sufficiently specific to guide\nantibiotic use on its own; sputum purulence and clinical assessment remain the\nprimary drivers of the antibiotic decision. ## Antibiotic stewardship Antibiotics are most clearly indicated when all three cardinal features are\npresent (increased dyspnoea, increased sputum volume, increased sputum purulence)\nor when two are present with one being purulence, or when mechanical\nventilation is required.",
+      "metadata": {
+        "chunk_id": "local-copd_exacerbation#c2",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-copd_exacerbation",
+      "title": "COPD Exacerbation — Local Reference Note",
+      "source": "local_reference_note:copd_exacerbation.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 3,
+      "text": "ea, increased sputum volume, increased sputum purulence)\nor when two are present with one being purulence, or when mechanical\nventilation is required.\nInpatient cultures — particularly blood cultures —\nare obtained before treatment in severe exacerbations. De-escalation should be\nplanned from the outset.",
+      "metadata": {
+        "chunk_id": "local-copd_exacerbation#c3",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-evidence_and_citation_integrity",
+      "title": "Evidence Retrieval and Citation Integrity — System Design Note",
+      "source": "local_reference_note:evidence_and_citation_integrity.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 0,
+      "text": "# Evidence Retrieval and Citation Integrity — System Design Note PROVENANCE: Local design note authored for the MedExplain AI research prototype. This document is **about the system itself**, not about medicine. No PMID or DOI. ## Purpose This note records the rules the MedExplain AI retrieval layer enforces, so that\nthe behaviour is auditable and so that reviewers can verify that no citation is\never produced that is not traceable to a stored local document. ## Rules enforced by the pipeline 1. **No citation without a source.** Every evidence item returned by\n   `POST /api/retrieve/evidence` corresponds to a specific chunk of a specific\n   document in the local knowledge directory. There is no generative path that\n   can invent a reference. 2. **Identifiers are validated, not trusted.** Only identifiers that match the\n   issued pattern are accepted as grounding targets.",
+      "metadata": {
+        "chunk_id": "local-evidence_and_citation_integrity#c0",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-evidence_and_citation_integrity",
+      "title": "Evidence Retrieval and Citation Integrity — System Design Note",
+      "source": "local_reference_note:evidence_and_citation_integrity.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 1,
+      "text": "nvent a reference. 2. **Identifiers are validated, not trusted.** Only identifiers that match the\n   issued pattern are accepted as grounding targets.\nA model that produces\n   `[doc:some-thing-not-issued]` has that reference dropped and the response\n   marked as insufficiently grounded. 3. **Empty index is a first-class state.** When the knowledge base is not\n   initialized, the API returns `Knowledge base not initialized` and an empty\n   evidence list. It does **not** fall back to model-recalled references. 4. **Local notes carry no external identifiers.** The documents in\n   `backend/data/knowledge/` are local reference notes authored for this\n   prototype. They deliberately carry **no PMID and no DOI**, because no\n   published identifier was verified. A note that asserted one would be a\n   fabricated citation. 5. **Similarity scores are not evidence of clinical truth.** A cosine similarity\n   is a measure of embedding proximity, nothing more. It carries no clinical\n   meaning and is not a confidence. 6.",
+      "metadata": {
+        "chunk_id": "local-evidence_and_citation_integrity#c1",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-evidence_and_citation_integrity",
+      "title": "Evidence Retrieval and Citation Integrity — System Design Note",
+      "source": "local_reference_note:evidence_and_citation_integrity.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 2,
+      "text": "nical truth.** A cosine similarity\n   is a measure of embedding proximity, nothing more. It carries no clinical\n   meaning and is not a confidence. 6.\n**Grounding is necessary, not sufficient.** A citation that resolves proves\n   only that the text exists in the local store. It does not prove the retrieved\n   text answers the question asked. ## What the retrieval layer deliberately does not do - It does not query PubMed, Crossref, or any network service. - It does not perform web search to fill an empty index. - It does not let the language model add references that retrieval did not\n  return. - It does not report recall, precision, or any retrieval quality metric, because\n  none has been measured against a labelled query set. ## Verification procedure To confirm the system honours these rules: 1. Start with an empty index and query. Expect an explicit not-initialized\n   response and zero evidence items. 2. Ingest documents, restart, query. Expect evidence items whose `source` and\n   `document_id` match ingested files. 3.",
+      "metadata": {
+        "chunk_id": "local-evidence_and_citation_integrity#c2",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-evidence_and_citation_integrity",
+      "title": "Evidence Retrieval and Citation Integrity — System Design Note",
+      "source": "local_reference_note:evidence_and_citation_integrity.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 3,
+      "text": "ponse and zero evidence items. 2. Ingest documents, restart, query. Expect evidence items whose `source` and\n   `document_id` match ingested files. 3.\nAsk the model directly for a citation with no supporting retrieval. Expect\n   the reference to be dropped and the grounding flag to report it.",
+      "metadata": {
+        "chunk_id": "local-evidence_and_citation_integrity#c3",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-neuro_glioma_management_and_imaging",
+      "title": "WHO CNS 5 Diffuse Glioma Classification and Multiparametric MRI Staging",
+      "source": "local_reference_note:neuro_glioma_management_and_imaging.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 0,
+      "text": "# WHO CNS 5 Diffuse Glioma Classification and Multiparametric MRI Staging PROVENANCE: Local reference note authored for the MedExplain AI research prototype. Ground truth for multimodal brain disease clinical decision support. Citable within system. ## Diagnostic Definition and Pathophysiology\nDiffuse gliomas constitute the most common primary intra-axial neuroepithelial neoplasms of the central nervous system. Under the WHO Classification of Tumors of the Central Nervous System (5th Edition, WHO CNS 5), classification integrates molecular profiling (IDH1/2 mutation status, 1p/19q codeletion, ATRX loss, TERT promoter mutation, CDKN2A/B homozygous deletion) with histological features. - **Glioblastoma, IDH-wildtype (WHO Grade 4)**: Hallmark features include microvascular proliferation, pseudopalisading necrosis, and aggressive parenchymal infiltration.",
+      "metadata": {
+        "chunk_id": "local-neuro_glioma_management_and_imaging#c0",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-neuro_glioma_management_and_imaging",
+      "title": "WHO CNS 5 Diffuse Glioma Classification and Multiparametric MRI Staging",
+      "source": "local_reference_note:neuro_glioma_management_and_imaging.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 1,
+      "text": "H-wildtype (WHO Grade 4)**: Hallmark features include microvascular proliferation, pseudopalisading necrosis, and aggressive parenchymal infiltration.\n- **Astrocytoma, IDH-mutant (WHO Grade 2, 3, or 4)**: Graded based on mitotic activity and CDKN2A/B homozygous deletion. - **Oligodendroglioma, IDH-mutant and 1p/19q-codeleted (WHO Grade 2 or 3)**. ## Neuroimaging Hallmarks (Multiparametric MRI)\n1. **T1-Weighted Post-Gadolinium**:\n   - High-grade gliomas characteristically demonstrate thick, irregular, nodular ring enhancement surrounding a central non-enhancing hypointense necrotic core. - Low-grade gliomas typically demonstrate minimal or no contrast enhancement. 2. **T2/FLAIR Hyperintensity**:\n   - Extensive non-enhancing infiltrative signal abnormality representing a combination of vasogenic edema and non-enhancing infiltrative neoplastic glial cells. - Distinct from pure vasogenic edema; infiltrative glioma cells extend well beyond visible contrast enhancement into adjacent white matter tracts. 3.",
+      "metadata": {
+        "chunk_id": "local-neuro_glioma_management_and_imaging#c1",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-neuro_glioma_management_and_imaging",
+      "title": "WHO CNS 5 Diffuse Glioma Classification and Multiparametric MRI Staging",
+      "source": "local_reference_note:neuro_glioma_management_and_imaging.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 2,
+      "text": "- Distinct from pure vasogenic edema; infiltrative glioma cells extend well beyond visible contrast enhancement into adjacent white matter tracts. 3.\n**Mass Effect and Hemispheric Asymmetry**:\n   - Compression of adjacent sulci, ipsilateral lateral ventricle effacement, midline shift (>5 mm predicts herniation risk), and subfalcine or uncal herniation vectors. 4. **Diffusion-Weighted Imaging (DWI/ADC)**:\n   - High cellularity zones demonstrate restricted water diffusion with hypointensity on Apparent Diffusion Coefficient (ADC) maps. 5. **Magnetic Resonance Spectroscopy (MRS)**:\n   - Markedly elevated Choline (Cho) to N-acetylaspartate (NAA) ratio (Cho/NAA > 2.0), reduced NAA (neuronal loss), and elevated Lipid-Lactate peak reflecting anaerobic metabolism/necrosis. ## Clinical Symptom Presentation\n- **Progressive Headache**: Morning worsening, valsalva exacerbation, signs of increased intracranial pressure (ICP).",
+      "metadata": {
+        "chunk_id": "local-neuro_glioma_management_and_imaging#c2",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-neuro_glioma_management_and_imaging",
+      "title": "WHO CNS 5 Diffuse Glioma Classification and Multiparametric MRI Staging",
+      "source": "local_reference_note:neuro_glioma_management_and_imaging.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 3,
+      "text": "## Clinical Symptom Presentation\n- **Progressive Headache**: Morning worsening, valsalva exacerbation, signs of increased intracranial pressure (ICP).\n- **New-Onset Epileptic Seizures**: Focal seizures with or without secondary generalization; common presenting sign in cortical and subcortical locations. - **Focal Neurological Deficits**: Hemiparesis, dysphasia/aphasia, sensory disturbances corresponding to lesion topography. - **Cognitive and Executive Decline**: Frontal lobe syndrome, psychomotor slowing, apathy, acoustic/phonetic speech pauses. ## Clinical Decision Support Directives\n1. Urgently schedule 3-Tesla volumetric neuronavigation MRI with multiplanar thin-slice T1+C, T2/FLAIR, DWI, and perfusion (DSC-MRI rCBV). 2. Initiate corticosteroid therapy (Dexamethasone) for symptomatic mass effect and perilesional vasogenic edema with gastric prophylaxis. 3. Urgent Neurosurgical Oncology evaluation for stereotactic biopsy vs maximal safe resection with intraoperative neuromonitoring (fMRI / DTI tractography). 4.",
+      "metadata": {
+        "chunk_id": "local-neuro_glioma_management_and_imaging#c3",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-neuro_glioma_management_and_imaging",
+      "title": "WHO CNS 5 Diffuse Glioma Classification and Multiparametric MRI Staging",
+      "source": "local_reference_note:neuro_glioma_management_and_imaging.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 4,
+      "text": "Neurosurgical Oncology evaluation for stereotactic biopsy vs maximal safe resection with intraoperative neuromonitoring (fMRI / DTI tractography). 4.\nNeurological consultation for anti-seizure medication (ASM) initiation if seizures or high epileptogenic location.",
+      "metadata": {
+        "chunk_id": "local-neuro_glioma_management_and_imaging#c4",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-neuro_meningioma_imaging_and_grading",
+      "title": "Meningioma Grading, Morphologic Radiomics, and Dural Attachment Diagnostics",
+      "source": "local_reference_note:neuro_meningioma_imaging_and_grading.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 0,
+      "text": "# Meningioma Grading, Morphologic Radiomics, and Dural Attachment Diagnostics PROVENANCE: Local reference note authored for the MedExplain AI research prototype. Ground truth for multimodal brain disease clinical decision support. Citable within system. ## Diagnostic Definition and Epidemiology\nMeningiomas are the most frequent primary extra-axial non-glial intracranial neoplasms, originating from meningothelial arachnoid cap cells of the arachnoid villi. - **WHO Grade 1 (Benign)**: ~80-85% of cases (Meningothelial, fibrous, transitional subtypes); slow-growing, circumscribed. - **WHO Grade 2 (Atypical)**: ~15-20% of cases (Increased mitoses >= 4/10 HPF, spontaneous necrosis, sheeting, prominent nucleoli, brain invasion); higher recurrence rate.",
+      "metadata": {
+        "chunk_id": "local-neuro_meningioma_imaging_and_grading#c0",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-neuro_meningioma_imaging_and_grading",
+      "title": "Meningioma Grading, Morphologic Radiomics, and Dural Attachment Diagnostics",
+      "source": "local_reference_note:neuro_meningioma_imaging_and_grading.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 1,
+      "text": "ical)**: ~15-20% of cases (Increased mitoses >= 4/10 HPF, spontaneous necrosis, sheeting, prominent nucleoli, brain invasion); higher recurrence rate.\n- **WHO Grade 3 (Anaplastic/Malignant)**: ~1-3% of cases (Rhabdoid, papillary, frank sarcomatous/carcinomatous morphology, >= 20 mitoses/10 HPF). ## Neuroimaging Characteristics (MRI & CT)\n1. **Extra-Axial Signs**:\n   - Broad-based dural attachment with the classic pathognomonic **\"Dural Tail Sign\"** (thickening and avid enhancement of adjacent tapering dura mater). - CSF cleft sign (thin rim of cerebrospinal fluid interposed between the mass and displaced cerebral parenchyma). - Cortical buckling and inward displacement of cortical gray matter and pial vessels. 2. **Signal Characteristics**:\n   - **T1-Weighted**: Iso- to slightly hypointense relative to cortex. - **T2/FLAIR**: Iso- to hyperintense. Hyperintensity on T2 often correlates with increased vascularity or soft/syncytial subtype.",
+      "metadata": {
+        "chunk_id": "local-neuro_meningioma_imaging_and_grading#c1",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-neuro_meningioma_imaging_and_grading",
+      "title": "Meningioma Grading, Morphologic Radiomics, and Dural Attachment Diagnostics",
+      "source": "local_reference_note:neuro_meningioma_imaging_and_grading.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 2,
+      "text": "relative to cortex. - **T2/FLAIR**: Iso- to hyperintense. Hyperintensity on T2 often correlates with increased vascularity or soft/syncytial subtype.\n- **Post-Contrast T1**: Intensely, uniformly, and homogeneously enhancing mass with sharply circumscribed boundaries. 3. **Bony Remodeling (CT/MRI)**:\n   - Hyperostosis of adjacent cranial vault (particularly in convex, parasagittal, sphenoid wing, and olfactory groove meningiomas). - Bony erosion or osteolysis is more suggestive of atypical (Grade 2) or malignant (Grade 3) histology. 4. **Perilesional Edema**:\n   - Variable vasogenic edema in adjacent brain parenchyma, driven by vascular endothelial growth factor (VEGF) secretion and cortical pial supply recruitment. ## Differential Diagnosis\n- Dural metastases (prostate, breast, melanoma). - Solitary fibrous tumor / Hemangiopericytoma (lack of hyperostosis, prominent flow voids, staghorn vasculature). - Schwannoma (cerebellopontine angle location with expansion of internal auditory canal). - Neurosarcoidosis / Pachymeningitis.",
+      "metadata": {
+        "chunk_id": "local-neuro_meningioma_imaging_and_grading#c2",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-neuro_meningioma_imaging_and_grading",
+      "title": "Meningioma Grading, Morphologic Radiomics, and Dural Attachment Diagnostics",
+      "source": "local_reference_note:neuro_meningioma_imaging_and_grading.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 3,
+      "text": "staghorn vasculature). - Schwannoma (cerebellopontine angle location with expansion of internal auditory canal). - Neurosarcoidosis / Pachymeningitis.\n## Clinical Recommendations & Protocol\n1. Contrast-enhanced MRI with high-resolution volumetric 3D T1-SPGR/MPRAGE and coronal reconstruction. 2. Assess venous sinus patency (MR Venography / CTV) if tumor abuts superior sagittal sinus or transverse/sigmoid sinus (Simpson Grade planning). 3. Observation with serial volumetric imaging for asymptomatic, small, calcified incidental Grade 1 meningiomas. 4. Neurosurgical resection (maximal safe Simpson resection) or stereotactic radiosurgery (SRS/Gamma Knife) for enlarging, symptomatic, or skull base lesions with cranial nerve impingement.",
+      "metadata": {
+        "chunk_id": "local-neuro_meningioma_imaging_and_grading#c3",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-neuro_normal_brain_and_imaging_differential",
+      "title": "Normal Brain Neuroanatomy, Differential Diagnostic Framework and Pseudolesions",
+      "source": "local_reference_note:neuro_normal_brain_and_imaging_differential.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 0,
+      "text": "# Normal Brain Neuroanatomy, Differential Diagnostic Framework and Pseudolesions PROVENANCE: Local reference note authored for the MedExplain AI research prototype. Ground truth for multimodal brain disease clinical decision support. Citable within system. ## Normal Brain MRI Morphology (Negative Control Parameters)\n1. **Symmetry & Ventricular Configuration**:\n   - Lateral ventricles symmetrical in volume, morphology, and fronto-occipital horns without effacement, hydrocephalus, or dilation. - Third and fourth ventricles in normal midline anatomical alignment without lateral displacement or downward transtentorial pressure. - Symmetrical hemispheric sulcation and cortical thickness appropriate for patient age. 2.",
+      "metadata": {
+        "chunk_id": "local-neuro_normal_brain_and_imaging_differential#c0",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-neuro_normal_brain_and_imaging_differential",
+      "title": "Normal Brain Neuroanatomy, Differential Diagnostic Framework and Pseudolesions",
+      "source": "local_reference_note:neuro_normal_brain_and_imaging_differential.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 1,
+      "text": "t lateral displacement or downward transtentorial pressure. - Symmetrical hemispheric sulcation and cortical thickness appropriate for patient age. 2.\n**Gray-White Matter Junction**:\n   - Preserved demarcation between deep cortical ribbon (gray matter) and subcortical white matter without blurring, loss of contrast, or focal dedifferentiation. 3. **Midline Structures**:\n   - Preserved midline interhemispheric falx cerebri with 0.0 mm midline shift. - Optic chiasm, pituitary gland in sella turcica, brainstem (midbrain, pons, medulla), and cerebellar vermis normal in volume and signal characteristics. 4. **Signal Intensity Baselines**:\n   - Normal physiological CSF is homogenously dark (suppressed) on T2/FLAIR and bright on standard T2. - Absence of pathological restricted diffusion on DWI (normal b=1000 and corresponding ADC map values 700-800 x 10^-6 mm^2/s). - Absence of abnormal leptomeningeal, pachymeningeal, intra-axial nodular, or ring enhancement following intravenous gadolinium.",
+      "metadata": {
+        "chunk_id": "local-neuro_normal_brain_and_imaging_differential#c1",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-neuro_normal_brain_and_imaging_differential",
+      "title": "Normal Brain Neuroanatomy, Differential Diagnostic Framework and Pseudolesions",
+      "source": "local_reference_note:neuro_normal_brain_and_imaging_differential.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 2,
+      "text": "-800 x 10^-6 mm^2/s). - Absence of abnormal leptomeningeal, pachymeningeal, intra-axial nodular, or ring enhancement following intravenous gadolinium.\n## Differential Diagnostic Framework for Intracranial Mass Lesions\nWhen an intracranial lesion or signal abnormality is identified, multiparametric evaluation distinguishes between primary neoplastic and non-neoplastic mimics:\n- **Intra-Axial vs Extra-Axial**:\n  - Intra-axial: Glioma, metastasis, primary CNS lymphoma, cerebral abscess, acute cerebral infarction, tumefactive demyelination. - Extra-axial: Meningioma, schwannoma, epidermoid cyst, pituitary macroadenoma, arachnoid cyst. - **Ring Enhancement Differential (MAGIC DR mnemonic)**:\n  - **M**: Metastasis (well-circumscribed, profound vasogenic edema out of proportion to tumor volume, gray-white junction). - **A**: Abscess (smooth thin rim, dual-rim sign on T2, central restricted diffusion on DWI with low ADC). - **G**: Glioblastoma (irregular, nodular, thick ragged ring with central necrosis and infiltrative FLAIR rim).",
+      "metadata": {
+        "chunk_id": "local-neuro_normal_brain_and_imaging_differential#c2",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-neuro_normal_brain_and_imaging_differential",
+      "title": "Normal Brain Neuroanatomy, Differential Diagnostic Framework and Pseudolesions",
+      "source": "local_reference_note:neuro_normal_brain_and_imaging_differential.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 3,
+      "text": "ricted diffusion on DWI with low ADC). - **G**: Glioblastoma (irregular, nodular, thick ragged ring with central necrosis and infiltrative FLAIR rim).\n- **I**: Infarct (subacute luxury perfusion, gyriform enhancement conforming to vascular territory). - **C**: Contusion / Hematoma (evolution of hemoglobin breakdown products, hemosiderin blooming on SWI/GRE). - **D**: Demyelinating lesion / Tumefactive MS (open-ring or incomplete horseshoe enhancement facing the cortex). - **R**: Radiation necrosis (soap-bubble or Swiss-cheese enhancement in previously irradiated field). ## Multimodal Decision Support Recommendations\n1. For confirmed normal brain MRI scans in symptomatic patients (headache, dizziness, transient ischemic attacks), investigate metabolic, cervical, vestibular, vascular, or functional etiologies. 2. Consider dynamic MR Angiography (MRA) or CT Angiography (CTA) if acute neurovascular symptoms persist despite normal parenchymal MRI. 3.",
+      "metadata": {
+        "chunk_id": "local-neuro_normal_brain_and_imaging_differential#c3",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-neuro_normal_brain_and_imaging_differential",
+      "title": "Normal Brain Neuroanatomy, Differential Diagnostic Framework and Pseudolesions",
+      "source": "local_reference_note:neuro_normal_brain_and_imaging_differential.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 4,
+      "text": "tiologies. 2. Consider dynamic MR Angiography (MRA) or CT Angiography (CTA) if acute neurovascular symptoms persist despite normal parenchymal MRI. 3.\nSchedule 3- to 6-month surveillance imaging if clinical suspicion for early or microscopic epileptogenic focus remains elevated.",
+      "metadata": {
+        "chunk_id": "local-neuro_normal_brain_and_imaging_differential#c4",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-neuro_pituitary_adenoma_and_sellar_pathology",
+      "title": "Pituitary Neuroendocrine Tumors (PitNET) and Sellar Region Pathologies",
+      "source": "local_reference_note:neuro_pituitary_adenoma_and_sellar_pathology.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 0,
+      "text": "# Pituitary Neuroendocrine Tumors (PitNET) and Sellar Region Pathologies PROVENANCE: Local reference note authored for the MedExplain AI research prototype. Ground truth for multimodal brain disease clinical decision support. Citable within system. ## Diagnostic Definition and Classification\nPituitary adenomas, classified in current nomenclature as Pituitary Neuroendocrine Tumors (PitNETs), originate from adenohypophyseal cells of the anterior pituitary gland within the sella turcica. - **Classification by Size**:\n  - **Microadenoma**: Maximum diameter < 10 mm (confined to sella, rarely produces mass effect, presents via endocrine hypersecretion). - **Macroadenoma**: Maximum diameter >= 10 mm (often extends suprasellar into optic chiasm or parasellar into cavernous sinus). - **Giant Adenoma**: Maximum diameter >= 40 mm.",
+      "metadata": {
+        "chunk_id": "local-neuro_pituitary_adenoma_and_sellar_pathology#c0",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-neuro_pituitary_adenoma_and_sellar_pathology",
+      "title": "Pituitary Neuroendocrine Tumors (PitNET) and Sellar Region Pathologies",
+      "source": "local_reference_note:neuro_pituitary_adenoma_and_sellar_pathology.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 1,
+      "text": "um diameter >= 10 mm (often extends suprasellar into optic chiasm or parasellar into cavernous sinus). - **Giant Adenoma**: Maximum diameter >= 40 mm.\n- **Classification by Functional Status**:\n  - Non-functioning pituitary adenomas (NFPA): ~30-40% (silent gonadotroph; present with mass effect). - Prolactinomas (PRL-secreting): ~40-50% (galactorrhea, amenorrhea, hypogonadism). - Somatotroph adenomas (GH-secreting): ~10-15% (acromegaly / gigantism). - Corticotroph adenomas (ACTH-secreting): ~5-10% (Cushing disease). - Thyrotroph adenomas (TSH-secreting): <1%. ## Multiparametric Sellar MRI Protocol\n1. **Dedicated Thin-Slice Sellar Protocol**:\n   - High-resolution coronal and sagittal T1- and T2-weighted sequences (<= 2 mm slice thickness). - Dynamic contrast-enhanced (DCE) coronal T1 imaging with early arterial phase to detect microadenomas (which enhance more slowly than normal pituitary gland). 2. **Macroadenoma Appearance**:\n   - Expansion and ballooning of the bony sella turcica with remodeling of the sellar floor.",
+      "metadata": {
+        "chunk_id": "local-neuro_pituitary_adenoma_and_sellar_pathology#c1",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-neuro_pituitary_adenoma_and_sellar_pathology",
+      "title": "Pituitary Neuroendocrine Tumors (PitNET) and Sellar Region Pathologies",
+      "source": "local_reference_note:neuro_pituitary_adenoma_and_sellar_pathology.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 2,
+      "text": "normal pituitary gland). 2. **Macroadenoma Appearance**:\n   - Expansion and ballooning of the bony sella turcica with remodeling of the sellar floor.\n- Suprasellar extension through the diaphragma sellae creating a characteristic **\"Figure-of-8\" or \"Snowman\" sign** due to waist compression. - Upward displacement, stretching, and thinning of the optic chiasm. 3. **Cavernous Sinus Infiltration (Knosp Classification)**:\n   - Evaluated by tumor relation to the internal carotid artery (ICA) flow voids:\n     - Knosp Grade 0-1: Medial to intercarotid tangent line (low invasion probability). - Knosp Grade 2: Crosses intercarotid tangent but medial to lateral tangent. - Knosp Grade 3-4: Encases ICA with total lateral extension (predicts subtotal resection). 4. **Pituitary Apoplexy**:\n   - Acute infarction or hemorrhage within a preexisting adenoma: intrinsic T1 hyperintensity (methemoglobin), fluid-debris levels, acute severe headache, and cranial nerve III/IV/VI palsies.",
+      "metadata": {
+        "chunk_id": "local-neuro_pituitary_adenoma_and_sellar_pathology#c2",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-neuro_pituitary_adenoma_and_sellar_pathology",
+      "title": "Pituitary Neuroendocrine Tumors (PitNET) and Sellar Region Pathologies",
+      "source": "local_reference_note:neuro_pituitary_adenoma_and_sellar_pathology.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 3,
+      "text": "n a preexisting adenoma: intrinsic T1 hyperintensity (methemoglobin), fluid-debris levels, acute severe headache, and cranial nerve III/IV/VI palsies.\n## Visual and Endocrine Consequences\n- **Bitemporal Hemianopsia**: Classic visual field deficit resulting from selective compression of crossing nasal retinal fibers in the optic chiasm. - **Optic Neuropathy**: Reduced visual acuity, afferent pupillary defect, optic disc pallor. - **Hypopituitarism**: Secondary adrenal insufficiency, central hypothyroidism, gonadotropin deficiency. ## Clinical Protocol & Recommendations\n1. Dedicated high-resolution pituitary protocol MRI (coronal dynamic T1, thin T2, post-gadolinium). 2. Formal automated visual field testing (Humphrey / Goldmann visual perimetry). 3. Complete baseline pituitary hormonal panel (Serum Prolactin, IGF-1, 8 AM Cortisol, ACTH, Free T4, TSH, LH, FSH, Testosterone/Estradiol). 4. If prolactinoma is confirmed, medical therapy with dopamine agonists (Cabergoline) is initial first-line therapy. 5.",
+      "metadata": {
+        "chunk_id": "local-neuro_pituitary_adenoma_and_sellar_pathology#c3",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-neuro_pituitary_adenoma_and_sellar_pathology",
+      "title": "Pituitary Neuroendocrine Tumors (PitNET) and Sellar Region Pathologies",
+      "source": "local_reference_note:neuro_pituitary_adenoma_and_sellar_pathology.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 4,
+      "text": "FSH, Testosterone/Estradiol). 4. If prolactinoma is confirmed, medical therapy with dopamine agonists (Cabergoline) is initial first-line therapy. 5.\nEndoscopic endonasal transsphenoidal surgical decompression for chiasmatic compression, visual field compromise, apoplexy, or non-prolactinoma macroadenomas.",
+      "metadata": {
+        "chunk_id": "local-neuro_pituitary_adenoma_and_sellar_pathology#c4",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-pneumonia_vs_pulmonary_oedema",
+      "title": "Pneumonia and Pulmonary Oedema — Differential Discrimination",
+      "source": "local_reference_note:pneumonia_vs_pulmonary_oedema.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 0,
+      "text": "# Pneumonia and Pulmonary Oedema — Differential Discrimination PROVENANCE: Local reference note authored for the MedExplain AI research prototype. Not a published article, not a society guideline, no PMID or DOI. Included so the retrieval pipeline has real local material to search. ## The core problem Pneumonia and cardiogenic pulmonary oedema are both common causes of acute\nbilateral opacities with hypoxaemia, and they frequently overlap. Discriminating\nthem is one of the highest-value judgements in acute chest medicine, and one of\nthe most frequently made incorrectly. ## Findings favouring cardiogenic oedema",
+      "metadata": {
+        "chunk_id": "local-pneumonia_vs_pulmonary_oedema#c0",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-pneumonia_vs_pulmonary_oedema",
+      "title": "Pneumonia and Pulmonary Oedema — Differential Discrimination",
+      "source": "local_reference_note:pneumonia_vs_pulmonary_oedema.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 1,
+      "text": "one of the highest-value judgements in acute chest medicine, and one of\nthe most frequently made incorrectly. ## Findings favouring cardiogenic oedema\n- Cardiomegaly (projection-sensitive; over-estimated on supine AP films)\n- Perihilar, central \"bat-wing\" alveolar distribution\n- Kerley B lines, subpleural septal thickening, fissural thickening\n- Pleural effusions\n- Elevated natriuretic peptides\n- Clinical volume overload: raised JVP, peripheral oedema, positive fluid balance\n- Known left ventricular dysfunction, ischaemic heart disease, valvular disease ## Findings favouring pneumonia - Focal or multifocal lobar consolidation\n- Air bronchograms within an opaque lobe\n- Fever, pleuritic pain, focal crepitations\n- Productive cough, sputum purulence\n- Elevated inflammatory markers with a compatible syndrome\n- Raised white cell count with a leftward shift ## Findings that do not discriminate",
+      "metadata": {
+        "chunk_id": "local-pneumonia_vs_pulmonary_oedema#c1",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-pneumonia_vs_pulmonary_oedema",
+      "title": "Pneumonia and Pulmonary Oedema — Differential Discrimination",
+      "source": "local_reference_note:pneumonia_vs_pulmonary_oedema.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 2,
+      "text": "ulence\n- Elevated inflammatory markers with a compatible syndrome\n- Raised white cell count with a leftward shift ## Findings that do not discriminate\n- Bilateral infiltrates: present in both\n- Hypoxaemia: present in both\n- Elevated CRP: present in both, and in many other inflammatory conditions\n- Ground-glass attenuation: present in both\n- Older age: present in both\n- Reduced lung expansion: present in both ## The strongest discriminators The discriminators that survive scrutiny are the *distributional* ones —\ncardiac silhouette size, perihilar vs peripheral distribution, septal lines,\neffusions — supported by clinical volume status. Biomarkers discriminate least. ## Overlap \"Mixed\" patterns are common. A patient with ischaemic heart disease may develop\naspiration pneumonia; a patient with pneumonia may develop acute kidney injury\nand volume overload. Forcing every presentation into a single label is a\nrecognisable failure mode. ## Practice point",
+      "metadata": {
+        "chunk_id": "local-pneumonia_vs_pulmonary_oedema#c2",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-pneumonia_vs_pulmonary_oedema",
+      "title": "Pneumonia and Pulmonary Oedema — Differential Discrimination",
+      "source": "local_reference_note:pneumonia_vs_pulmonary_oedema.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 3,
+      "text": "may develop acute kidney injury\nand volume overload. Forcing every presentation into a single label is a\nrecognisable failure mode. ## Practice point\nWhere the clinical and radiological pictures disagree, escalate rather than\nresolve artificially. Serial imaging and clinical reassessment carry more\ninformation than a single cross-sectional moment.",
+      "metadata": {
+        "chunk_id": "local-pneumonia_vs_pulmonary_oedema#c3",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-radiology_chest_xray_patterns",
+      "title": "Radiology Reference — Chest Radiograph Patterns of Parenchymal Opacity",
+      "source": "local_reference_note:radiology_chest_xray_patterns.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 0,
+      "text": "# Radiology Reference — Chest Radiograph Patterns of Parenchymal Opacity PROVENANCE: Local reference note authored for the MedExplain AI research prototype. Not a published article, not a verbatim society guideline, no PMID or DOI. Included so the retrieval pipeline has real local material to search. ## Ground-glass opacity Ground-glass opacity describes a region of increased lung attenuation that\n**does not obscure underlying bronchial and vascular markings**. This single\ndistinguishing feature separates it from consolidation, which obscures them. Important limitation: ground-glass attenuation is a *descriptive imaging\npattern*, not a diagnosis. The same appearance arises from many processes —\ninfection, interstitial inflammation, interstitial oedema, haemorrhage,\naspiration, and artefact such as underpenetration or motion. ## Distribution",
+      "metadata": {
+        "chunk_id": "local-radiology_chest_xray_patterns#c0",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-radiology_chest_xray_patterns",
+      "title": "Radiology Reference — Chest Radiograph Patterns of Parenchymal Opacity",
+      "source": "local_reference_note:radiology_chest_xray_patterns.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 1,
+      "text": "—\ninfection, interstitial inflammation, interstitial oedema, haemorrhage,\naspiration, and artefact such as underpenetration or motion. ## Distribution\n- **Bilateral, peripheral, subpleural, basilar** distribution: seen in acute\n  interstitial processes and in many viral pneumonias; also described in acute\n  eosinophilic injury and in some non-infectious interstitial conditions. - **Bilateral, diffuse, central/perihilar** (\"bat-wing\") distribution: more\n  typical of alveolar oedema. - **Focal lobar consolidation**: typical of bacterial pneumonia but not specific. Distribution is a *probability-shaping* observation. It changes the probability\nof a differential; it does not establish one. ## Cardiomegaly An increased cardiothoracic ratio suggests cardiogenic aetiology, but projection\nand inspiratory effort significantly affect the measurement. Portable\nsupine films commonly exaggerate the ratio. ## Pleural effusions Small bilateral effusions are common in both cardiogenic and non-cardiogenic\nprocesses.",
+      "metadata": {
+        "chunk_id": "local-radiology_chest_xray_patterns#c1",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-radiology_chest_xray_patterns",
+      "title": "Radiology Reference — Chest Radiograph Patterns of Parenchymal Opacity",
+      "source": "local_reference_note:radiology_chest_xray_patterns.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 2,
+      "text": "pine films commonly exaggerate the ratio. ## Pleural effusions Small bilateral effusions are common in both cardiogenic and non-cardiogenic\nprocesses.\nLarge unilateral effusions are more suggestive of a unilateral\nprocess (parapneumonic, malignant, or congestive). ## Technical adequacy Before any pattern is described, image adequacy must be assessed: 1. Rotation — the spinous processes should be equidistant from the medial\n   clavicular heads. 2. Inspiration — at least 8-10 posterior ribs should be visible. 3. Penetration — thoracic vertebrae should be just visible through the heart. 4. Collimation and motion. An inadequate study limits the strength of any description, and the limitation\nshould be stated explicitly rather than silently interpreted. ## What a radiograph cannot establish A single projection cannot establish temporal change, depth, enhancement\nbehaviour, or the nature of an underlying process. Comparison with prior\nimaging and cross-sectional imaging are frequently required.",
+      "metadata": {
+        "chunk_id": "local-radiology_chest_xray_patterns#c2",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-speech_audio_quality",
+      "title": "Voice and Speech Recording — Clinical Data Quality Note",
+      "source": "local_reference_note:speech_audio_quality.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 0,
+      "text": "# Voice and Speech Recording — Clinical Data Quality Note PROVENANCE: Local reference note authored for the MedExplain AI research prototype. Not a published article, no PMID or DOI. Included so the retrieval pipeline has\nreal local material to search. Relevant because the pipeline's acoustic\nfeatures are only interpretable under stated conditions. ## Recording conditions matter Speech-based clinical capture is only as reliable as its recording conditions. Key variables: - **Ambient noise floor** — background noise degrades word error rate sharply. A noise floor within roughly 10 dB of the speech level causes severe\n  degradation; within 20 dB causes measurable but usable degradation. - **Signal-to-noise ratio** is a better predictor of transcript reliability than\n  absolute volume. - **Microphone distance** — a consistent 15-20 cm working distance keeps level\n  stable.",
+      "metadata": {
+        "chunk_id": "local-speech_audio_quality#c0",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-speech_audio_quality",
+      "title": "Voice and Speech Recording — Clinical Data Quality Note",
+      "source": "local_reference_note:speech_audio_quality.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 1,
+      "text": "r predictor of transcript reliability than\n  absolute volume. - **Microphone distance** — a consistent 15-20 cm working distance keeps level\n  stable.\nUnconstrained distance is a common source of level variation. - **Room reverberation** blurs formants, particularly the second formant, and\n  degrades phoneme discrimination. ## Consequences for acoustic features The pipeline's acoustic features are computed on the decoded waveform. They\nare only interpretable when the recording conditions are adequate: - **Zero-crossing rate** is inversely related to dominant frequency. It is\n  strongly speaker- and channel-dependent, and microphone high-pass filtering\n  removes the lowest-frequency crossings. - **Spectral centroid** is the balance point of the power spectrum. It rises with\n  brightness and with harshness, and is also strongly channel-dependent. - **Spectral flatness** approaches 1 for noise and falls with tonal content. It is frequently the best single indicator of an un-usable recording.",
+      "metadata": {
+        "chunk_id": "local-speech_audio_quality#c1",
+        "char_start": null
+      }
+    },
+    {
+      "document_id": "local-speech_audio_quality",
+      "title": "Voice and Speech Recording — Clinical Data Quality Note",
+      "source": "local_reference_note:speech_audio_quality.md",
+      "pmid": null,
+      "doi": null,
+      "society": null,
+      "publication_year": null,
+      "chunk_index": 2,
+      "text": "nt. - **Spectral flatness** approaches 1 for noise and falls with tonal content. It is frequently the best single indicator of an un-usable recording.\n- **Spectral rolloff (85%)** marks the frequency below which 85% of energy lies. It rises with bandwidth. Because these features are channel-dependent, they support **recording-quality\ngating** and **prosody (contour, tempo, pause) assessment**. They do **not**\nsupport diagnostic claims about voice pathology. Voice quality indices such as\njitter and shimmer computed on a consumer microphone are not clinically valid. ## Telemetry is more reliable than features For deciding whether a recording is usable, the proportion of non-speech\n(\"silence\") frames, the SNR estimate, and the spectral flatness summary are more\nrobust than any single feature vector. ## Clinical safety An automatically produced transcript is a **draft for confirmation**, not a\nrecord of what the patient said. Any clinical decision that depends on the\ntranscript must be checked against the clinician's own documentation.",
+      "metadata": {
+        "chunk_id": "local-speech_audio_quality#c2",
+        "char_start": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "MedExplain AI - Multimodal Clinical Intelligence",
+  "description": "An evidence-grounded multimodal AI framework synthesizing medical imaging, phonetics, clinical biomarkers, and retrieval-augmented reasoning into fully traceable diagnostic justifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

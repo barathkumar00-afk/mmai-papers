@@ -1,0 +1,6 @@
+forntend:
+npm build
+npm run dev 
+
+backend:
+

@@ -1,0 +1,8 @@
+backend:
+cd "c:\Users\Windows\OneDrive\Desktop\mmai papers\backend"
+.\.venv\Scripts\Activate.ps1
+uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
+
+frontend:
+cd "c:\Users\Windows\OneDrive\Desktop\mmai papers"
+npm run dev
